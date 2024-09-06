@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  
+  }
+  
+  .header{
+    width: 100%;
+    line-height: 40px;
+    background-color: rgb(221, 221, 42);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10%;
+    color: rgb(44, 45, 45);
+    box-shadow: 5px 3px 15px -5px ;
+  }
+  
+  .footer
+  {
+    padding-left: 50%;
+    padding-right: 50%;
+    text-align: center;
+    bottom: 0%;
+    position: fixed;
+    background-color: rgb(221, 221, 42);
+    
+  }
+  
+  .main-div
+  {
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+  }
+  
+  form
+  {
+    min-height: 50px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 4px 5px 15px -5px rgb(0,0,0);
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  input{
+    width: 100px;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    margin: 10px ;
+    font-weight: bold;
+  }
+  
+  textarea 
+  {
+    width: 100%;
+    line-height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin: 10px ;
+  }
+  
+  .muiButton-root .plus
+  {
+    font-size: 40px;
+    font-weight: 800;
+    color: #490cd6;
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+    border: none;
+  
+  }
+  
+  /* .muiButton-root:hover .plus
+  {
+    color: #ecf1ec;
+    background: transparent;
+  } */
+  
+  
+  
+  .muiButton-root
+  {
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    bottom: -28px;
+    left: 400px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+  }
+  .plus:hover{
+    color: rgb(12, 232, 4);
+  }
+  
+  .note
+  {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  
+  
+  .note h1
+  {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+  
+  .note p
+  {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .my-notes h1
+  {
+    color: #34495e;
+  }
+  
+  .my-notes p{
+    color: gray;
+  }
+  
+  .note .btn
+  {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #2f12d9;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  
+  .deleteBtn{
+    width: 0.9em;
+    height: 0.9em;
+  }
+  
+  .note.btn:hover
+  {
+    background: color #0623b1; ;
+  }
+  
+  .note.btn:hover .deleteBtn
+  {
+    color: #fff;
+  }
+  
+  .deleteBtn:hover{
+    color: red;
+  }
+  
